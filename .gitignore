@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+*.tmp
+temp_*
+cd_check*
+cd_test*
+__pycache__/

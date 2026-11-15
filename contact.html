@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact NS GLASS — Free Quote &amp; Site Assessment | Bapatla</title>
+<meta name="description" content="Get in touch with NS GLASS Bapatla. Request a free site visit, technical consultation, or quick quotation for shower enclosures, partitions, and glass railings.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Floating Glass Navbar -->
+<nav class="floating-nav">
+  <div class="nav-pill-container">
+    <a href="index.html" class="nav-brand">
+      <div class="nav-brand-logo">
+        <img src="ns_logo.svg" alt="NS GLASS" style="height:32px; width:auto;">
+      </div>
+      <span class="nav-brand-text">NS GLASS</span>
+    </a>
+    
+    <div class="nav-links-wrap">
+      <a href="index.html" class="nav-link">Home</a>
+      <div class="nav-dropdown">
+        <a href="types.html" class="nav-link">Products <i class="fas fa-chevron-down" style="font-size:10px; margin-left:2px;"></i></a>
+        <div class="dropdown-menu">
+          <a href="types.html#shower" class="dropdown-item"><i class="fas fa-shower" style="color:#0066ff;"></i> Shower Enclosures</a>
+          <a href="types.html#partitions" class="dropdown-item"><i class="fas fa-building" style="color:#0066ff;"></i> Office Partitions</a>
+          <a href="types.html#railings" class="dropdown-item"><i class="fas fa-shield-alt" style="color:#0066ff;"></i> Balcony Railings</a>
+          <a href="types.html#decorative" class="dropdown-item"><i class="fas fa-gem" style="color:#0066ff;"></i> Decorative Glass</a>
+          <a href="types.html#spider" class="dropdown-item"><i class="fas fa-cube" style="color:#0066ff;"></i> Spider Glazing</a>
+        </div>
+      </div>
+      <a href="gallery.html" class="nav-link">Projects</a>
+      <a href="3d-view.html" class="nav-link">Studio / 3D Quote</a>
+      <a href="profile.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="nav-search-btn" aria-label="Search" onclick="window.location.href='gallery.html'"><i class="fas fa-search"></i></button>
+      <a href="contact.html" class="btn-primary">Get Quote <i class="fas fa-arrow-right"></i></a>
+      <button class="mobile-hamburger" id="hamburgerBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Navigation Drawer -->
+<div class="mobile-nav-drawer" id="mobileDrawer">
+  <div class="mobile-drawer-inner">
+    <div class="mobile-drawer-head">
+      <div class="nav-brand">
+        <img src="ns_logo.svg" alt="NS GLASS" style="height:28px;">
+        <span class="nav-brand-text">NS GLASS</span>
+      </div>
+      <button class="drawer-close-btn" id="drawerCloseBtn">&times;</button>
+    </div>
+    <div class="mobile-drawer-links">
+      <a href="index.html" class="mobile-drawer-link">Home <i class="fas fa-arrow-right"></i></a>
+      <a href="types.html" class="mobile-drawer-link">Products <i class="fas fa-arrow-right"></i></a>
+      <a href="gallery.html" class="mobile-drawer-link">Projects <i class="fas fa-arrow-right"></i></a>
+      <a href="3d-view.html" class="mobile-drawer-link">Studio / 3D Quote <i class="fas fa-arrow-right"></i></a>
+      <a href="profile.html" class="mobile-drawer-link">About <i class="fas fa-arrow-right"></i></a>
+      <a href="safety.html" class="mobile-drawer-link">Safety &amp; ISI <i class="fas fa-arrow-right"></i></a>
+      <a href="contact.html" class="mobile-drawer-link active">Contact <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div style="margin-top:auto; display:flex; flex-direction:column; gap:10px;">
+      <a href="contact.html" class="btn-primary" style="width:100%;">Get Quote Now <i class="fas fa-arrow-right"></i></a>
+      <a href="https://wa.me/917981780062" target="_blank" class="btn-whatsapp" style="width:100%;"><i class="fab fa-whatsapp"></i> WhatsApp Chat</a>
+    </div>
+  </div>
+</div>
+
+<!-- Main Container -->
+<main class="container">
+
+  <!-- Contact Hero -->
+  <section class="contact-hero">
+    <div class="hero-badge-wrap">
+      <span class="badge-pill"><i class="fas fa-paper-plane"></i> Get In Touch</span>
+    </div>
+    <h1 style="font-size:clamp(34px, 4.2vw, 52px); margin-bottom:12px;">Let's Build Your<br>Glass Space</h1>
+    <p style="font-size:16px; max-width:620px; color:var(--text-secondary);">Have a project in mind? Get a quick quote, book a site visit, or chat with us on WhatsApp.</p>
+  </section>
+
+  <!-- 3-Column Conversion Layout -->
+  <section class="contact-layout-grid">
+    
+    <!-- Left Column: Direct Conversion Channels -->
+    <div class="direct-channels-col">
+      <!-- WhatsApp Instant Chat -->
+      <a href="https://wa.me/917981780062?text=Hello%20NS%20GLASS,%20I%20would%20like%20to%20get%20a%20quotation%20for%20my%20project." target="_blank" class="direct-channel-card">
+        <div class="channel-info-group">
+          <div class="channel-icon green"><i class="fab fa-whatsapp"></i></div>
+          <div class="channel-text">
+            <h4>WhatsApp Instant Chat</h4>
+            <p>Get quick answers &amp; quotations</p>
+          </div>
+        </div>
+        <div class="channel-arrow"><i class="fas fa-chevron-right"></i></div>
+      </a>
+
+      <!-- Book a Site Visit -->
+      <a href="#inquiryForm" onclick="switchFormTab('visit')" class="direct-channel-card">
+        <div class="channel-info-group">
+          <div class="channel-icon"><i class="far fa-calendar-check"></i></div>
+          <div class="channel-text">
+            <h4>Book a Site Visit</h4>
+            <p>On-site measurement &amp; consultation</p>
+          </div>
+        </div>
+        <div class="channel-arrow"><i class="fas fa-chevron-right"></i></div>
+      </a>
+
+      <!-- Quick Quote -->
+      <a href="3d-view.html" class="direct-channel-card">
+        <div class="channel-info-group">
+          <div class="channel-icon"><i class="fas fa-calculator"></i></div>
+          <div class="channel-text">
+            <h4>Quick Quote</h4>
+            <p>Share details &amp; get an estimate</p>
+          </div>
+        </div>
+        <div class="channel-arrow"><i class="fas fa-chevron-right"></i></div>
+      </a>
+
+      <!-- Our Location -->
+      <a href="#mapCard" class="direct-channel-card">
+        <div class="channel-info-group">
+          <div class="channel-icon"><i class="fas fa-map-marked-alt"></i></div>
+          <div class="channel-text">
+            <h4>Our Location</h4>
+            <p>Bapatla, Andhra Pradesh</p>
+          </div>
+        </div>
+        <div class="channel-arrow"><i class="fas fa-chevron-right"></i></div>
+      </a>
+    </div>
+
+    <!-- Center Column: Tabbed Inquiry Form Card -->
+    <div class="inquiry-form-card" id="inquiryForm">
+      <!-- Form Tabs -->
+      <div class="form-tabs-row">
+        <button class="form-tab-btn active" id="tabInquiry" onclick="switchFormTab('inquiry')">Send an Inquiry</button>
+        <button class="form-tab-btn" id="tabVisit" onclick="switchFormTab('visit')">Book a Site Visit</button>
+        <button class="form-tab-btn" id="tabQuote" onclick="switchFormTab('quote')">Quick Quote</button>
+      </div>
+
+      <form id="contactMainForm" onsubmit="handleFormSubmit(event)">
+        <!-- Full Name -->
+        <div class="form-field-group">
+          <label class="field-label">Full Name *</label>
+          <input type="text" class="field-input" placeholder="Enter your name" required id="formName">
+        </div>
+
+        <!-- Phone / WhatsApp -->
+        <div class="form-field-group">
+          <label class="field-label">Phone / WhatsApp *</label>
+          <div class="phone-input-wrap">
+            <div class="phone-prefix">
+              <i class="fab fa-whatsapp" style="color:#25D366;"></i> +91
+            </div>
+            <input type="tel" class="field-input" placeholder="Enter mobile number" required pattern="[0-9]{10}" id="formPhone">
+          </div>
+        </div>
+
+        <!-- Project Type -->
+        <div class="form-field-group">
+          <label class="field-label">Project Type</label>
+          <select class="config-select" id="formProjectType">
+            <option value="Shower Enclosure">Shower Enclosure</option>
+            <option value="Office Partition">Office Partition</option>
+            <option value="Balcony Railing">Balcony Railing</option>
+            <option value="Decorative Glass">Decorative Glass / Mandir</option>
+            <option value="Spider Glazing">Spider Glazing / Facade</option>
+            <option value="Complete Home Interior Glass">Complete Home Interior Glass</option>
+          </select>
+        </div>
+
+        <!-- Message -->
+        <div class="form-field-group">
+          <label class="field-label">Message (Optional)</label>
+          <textarea class="field-textarea" placeholder="Tell us about your requirement..." id="formMessage"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn-primary" style="width:100%; font-size:16px; padding:14px;">
+          Get a Free Quote <i class="fas fa-arrow-right"></i>
+        </button>
+
+        <!-- Trust Badges Under Form -->
+        <div class="form-trust-badges">
+          <div class="trust-badge-item"><i class="fas fa-check-circle"></i> Quick Response</div>
+          <div class="trust-badge-item"><i class="fas fa-check-circle"></i> Free Consultation</div>
+          <div class="trust-badge-item"><i class="fas fa-check-circle"></i> Accurate Estimate</div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Right Column: Location Map & Social Proof -->
+    <div class="trust-location-col">
+      <!-- Location Map Card -->
+      <div class="map-location-card" id="mapCard">
+        <div class="map-preview-img-box" style="background:#eef4fb; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+          <!-- Stylized Minimalist Vector Map matching Concept Board -->
+          <svg width="100%" height="100%" viewBox="0 0 320 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="140" fill="#f1f5f9"/>
+            <!-- Coastline / Bay of Bengal watermark -->
+            <path d="M240,0 C250,40 265,90 290,140 L320,140 L320,0 Z" fill="#e0f2fe"/>
+            <!-- Roads grid -->
+            <path d="M0,45 L320,45" stroke="#e2e8f0" stroke-width="8"/>
+            <path d="M0,95 L320,95" stroke="#e2e8f0" stroke-width="6"/>
+            <path d="M70,0 L70,140" stroke="#e2e8f0" stroke-width="6"/>
+            <path d="M160,0 L160,140" stroke="#ffffff" stroke-width="10"/>
+            <path d="M160,0 L160,140" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 4"/>
+            <path d="M220,0 L220,140" stroke="#e2e8f0" stroke-width="6"/>
+            <!-- Surya Lanka Road main diagonal -->
+            <path d="M30,140 C80,100 160,70 260,20" stroke="#ffffff" stroke-width="12"/>
+            <path d="M30,140 C80,100 160,70 260,20" stroke="#0066ff" stroke-opacity="0.25" stroke-width="3"/>
+            <!-- Red Pin on NS GLASS -->
+            <g transform="translate(160, 65)">
+              <circle cx="0" cy="0" r="16" fill="rgba(239, 68, 68, 0.18)"/>
+              <path d="M0, -14 C-5,-14 -9,-10 -9,-5 C-9,2 0,12 0,12 C0,12 9,2 9,-5 C9,-10 5,-14 0,-14 Z" fill="#ef4444"/>
+              <circle cx="0" cy="-6" r="3" fill="#ffffff"/>
+            </g>
+            <rect x="180" y="52" width="125" height="26" rx="6" fill="#ffffff" filter="drop-shadow(0px 2px 6px rgba(0,0,0,0.08))"/>
+            <text x="188" y="65" font-family="Plus Jakarta Sans, sans-serif" font-size="9" font-weight="700" fill="#0b1a30">NS GLASS Studio</text>
+            <text x="188" y="74" font-family="Plus Jakarta Sans, sans-serif" font-size="7.5" fill="#64748b">Bapatla, Andhra Pradesh</text>
+          </svg>
+        </div>
+        <div class="map-card-body">
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:4px;">
+            <h4>NS GLASS Studio</h4>
+            <a href="https://maps.google.com/?q=Bapatla,Andhra+Pradesh" target="_blank" style="font-size:12px; font-weight:700; color:var(--primary-blue);">Open Map <i class="fas fa-external-link-alt" style="font-size:10px;"></i></a>
+          </div>
+          <p>Surya Lanka Road, Sai Grand Bazar, Bapatla, Andhra Pradesh &ndash; 522101</p>
+        </div>
+      </div>
+
+      <!-- Business Hours Card -->
+      <div class="business-hours-card">
+        <div class="hours-head">
+          <i class="far fa-clock"></i> Business Hours
+        </div>
+        <div class="hours-row">
+          <span>Mon &ndash; Sat:</span>
+          <strong>9:00 AM &ndash; 7:00 PM</strong>
+        </div>
+        <div class="hours-row">
+          <span>Sunday:</span>
+          <strong>By Appointment</strong>
+        </div>
+      </div>
+
+      <!-- Trusted by 300+ Customers Card -->
+      <div class="customers-proof-card">
+        <h4>Trusted by 300+ Happy Customers</h4>
+        <div class="avatar-stack-wrap">
+          <img src="assets/cust1.jpg" alt="Customer" class="stack-avatar">
+          <img src="assets/cust2.jpg" alt="Customer" class="stack-avatar">
+          <img src="assets/cust3.jpg" alt="Customer" class="stack-avatar">
+          <div class="stack-count-badge">+300</div>
+        </div>
+        <div class="customers-rating-badge">
+          <i class="fas fa-star"></i>
+          <span><strong>4.9/5 Rating</strong> (320+ Reviews)</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Universal Value Proposition Strip -->
+  <div class="value-props-strip">
+    <div class="value-props-grid">
+      <div class="value-prop-item">
+        <div class="vp-icon"><i class="fas fa-bolt"></i></div>
+        <div class="vp-text">
+          <h5>More Leads</h5>
+          <p>Multiple conversion touchpoints</p>
+        </div>
+      </div>
+      <div class="value-prop-item">
+        <div class="vp-icon"><i class="fas fa-cube"></i></div>
+        <div class="vp-text">
+          <h5>Higher Engagement</h5>
+          <p>Interactive 3D / AR experience</p>
+        </div>
+      </div>
+      <div class="value-prop-item">
+        <div class="vp-icon"><i class="fas fa-shield-alt"></i></div>
+        <div class="vp-text">
+          <h5>More Trust</h5>
+          <p>Real projects, reviews &amp; founder</p>
+        </div>
+      </div>
+      <div class="value-prop-item">
+        <div class="vp-icon"><i class="fas fa-clock"></i></div>
+        <div class="vp-text">
+          <h5>Faster Conversion</h5>
+          <p>Quick quote, WhatsApp &amp; site visit</p>
+        </div>
+      </div>
+      <div class="value-prop-item">
+        <div class="vp-icon"><i class="fas fa-sparkles"></i></div>
+        <div class="vp-text">
+          <h5>Premium Brand Experience</h5>
+          <p>Clean, modern &amp; consistent</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global Footer -->
+  <footer class="global-footer">
+    <div class="footer-inner">
+      <div class="nav-brand">
+        <img src="ns_logo.svg" alt="NS GLASS" style="height:26px;">
+        <span class="nav-brand-text" style="font-size:17px;">NS GLASS</span>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 NS GLASS Studio, Bapatla, Andhra Pradesh. All rights reserved.
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="types.html">Products</a>
+        <a href="3d-view.html">3D Studio</a>
+        <a href="gallery.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<!-- Floating Consultation Widget (Bottom-Right on All Pages) -->
+<div class="floating-widget" id="consultationWidget">
+  <div class="widget-head">
+    <div class="widget-avatar-wrap">
+      <img src="assets/founder.jpg" alt="Burla Narendra" class="widget-avatar">
+      <div class="online-dot"></div>
+    </div>
+    <button class="widget-close-btn" id="closeWidgetBtn" aria-label="Close widget">&times;</button>
+  </div>
+  <div class="widget-title">Need Expert Advice?</div>
+  <div class="widget-desc">Chat with our team for free consultation &amp; quote.</div>
+  <div class="widget-acts">
+    <a href="https://wa.me/917981780062?text=Hello%20NS%20GLASS,%20I%20need%20expert%20advice%20for%20my%20glass%20project." target="_blank" class="btn-whatsapp">
+      <i class="fab fa-whatsapp"></i> WhatsApp Now
+    </a>
+    <a href="contact.html#site-visit" class="btn-secondary">
+      <i class="far fa-calendar-alt"></i> Book a Site Visit
+    </a>
+  </div>
+</div>
+<button class="widget-reopen-btn" id="reopenWidgetBtn"><i class="fas fa-comment-dots"></i> Chat with Us</button>
+
+<!-- Scripts -->
+<script>
+// Mobile Drawer Logic
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const mobileDrawer = document.getElementById('mobileDrawer');
+const drawerCloseBtn = document.getElementById('drawerCloseBtn');
+
+hamburgerBtn.addEventListener('click', () => mobileDrawer.classList.add('open'));
+drawerCloseBtn.addEventListener('click', () => mobileDrawer.classList.remove('open'));
+mobileDrawer.addEventListener('click', (e) => {
+  if (e.target === mobileDrawer) mobileDrawer.classList.remove('open');
+});
+
+// Floating Widget Logic
+const consultationWidget = document.getElementById('consultationWidget');
+const closeWidgetBtn = document.getElementById('closeWidgetBtn');
+const reopenWidgetBtn = document.getElementById('reopenWidgetBtn');
+
+closeWidgetBtn.addEventListener('click', () => {
+  consultationWidget.classList.add('closed');
+  consultationWidget.classList.remove('mobile-open');
+});
+reopenWidgetBtn.addEventListener('click', () => {
+  consultationWidget.classList.remove('closed');
+  consultationWidget.classList.add('mobile-open');
+});
+
+// Form Tabs Logic
+let activeTabMode = 'inquiry';
+function switchFormTab(mode) {
+  activeTabMode = mode;
+  document.querySelectorAll('.form-tab-btn').forEach(b => b.classList.remove('active'));
+  if (mode === 'inquiry') document.getElementById('tabInquiry').classList.add('active');
+  if (mode === 'visit') document.getElementById('tabVisit').classList.add('active');
+  if (mode === 'quote') document.getElementById('tabQuote').classList.add('active');
+}
+
+// Handle Form Submission via WhatsApp Dispatch
+function handleFormSubmit(e) {
+  e.preventDefault();
+  const name = document.getElementById('formName').value;
+  const phone = document.getElementById('formPhone').value;
+  const project = document.getElementById('formProjectType').value;
+  const message = document.getElementById('formMessage').value;
+
+  const msg = `*New Inquiry via Website* (${activeTabMode.toUpperCase()})\n` +
+              `👤 Name: ${name}\n` +
+              `📞 Phone: +91 ${phone}\n` +
+              `🏷 Project: ${project}\n` +
+              `💬 Details: ${message || 'Please contact me for quotation.'}`;
+
+  window.open(`https://wa.me/917981780062?text=${encodeURIComponent(msg)}`, '_blank');
+}
+</script>
+
+</body>
+</html>
