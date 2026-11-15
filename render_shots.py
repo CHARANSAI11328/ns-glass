@@ -12,7 +12,8 @@ for page in pages:
     subprocess.run([
         r'C:\Program Files\Google\Chrome\Application\chrome.exe',
         '--headless=new',
-        r'--user-data-dir=C:\Users\hplap\AppData\Local\Temp\cd_test',
+        '--force-device-scale-factor=1',
+        r'--user-data-dir=C:\Users\hplap\AppData\Local\Temp\cd_render_shots',
         f'--screenshot=C:\\Users\\hplap\\OneDrive\\Desktop\\files\\verify_{name}_desktop.png',
         '--window-size=1600,1050',
         url
@@ -22,22 +23,23 @@ for page in pages:
     subprocess.run([
         r'C:\Program Files\Google\Chrome\Application\chrome.exe',
         '--headless=new',
-        r'--user-data-dir=C:\Users\hplap\AppData\Local\Temp\cd_test',
+        '--force-device-scale-factor=1',
+        r'--user-data-dir=C:\Users\hplap\AppData\Local\Temp\cd_render_shots',
         f'--screenshot=C:\\Users\\hplap\\OneDrive\\Desktop\\files\\verify_{name}_full.png',
-        '--window-size=1600,2000',
+        '--window-size=1600,2200',
         url
     ])
     
-    # Mobile viewport (matching concept phone mockup)
+    # Mobile standard viewport (iPhone 14 / Pixel 7 mobile scale)
     subprocess.run([
         r'C:\Program Files\Google\Chrome\Application\chrome.exe',
         '--headless=new',
-        r'--user-data-dir=C:\Users\hplap\AppData\Local\Temp\cd_test',
+        '--force-device-scale-factor=1',
+        r'--user-data-dir=C:\Users\hplap\AppData\Local\Temp\cd_render_shots',
         '--hide-scrollbars',
         f'--screenshot=C:\\Users\\hplap\\OneDrive\\Desktop\\files\\verify_{name}_mobile.png',
-        '--window-size=504,860',
+        '--window-size=390,844',
         url
     ])
 
-print('All verification screenshots generated!')
-
+print('All 21 verification screenshots regenerated successfully!')

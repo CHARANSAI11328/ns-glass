@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Interactive Studio &amp; 3D Quote Configurator — NS GLASS</title>
-<meta name="description" content="Configure your shower enclosure, office partition, or railing in real-time 3D and AR, compare glass types, and get an instant cost estimation.">
+<title>Interactive 3D Studio &amp; Quote Estimator — NS GLASS | Founder Burla Narendra</title>
+<meta name="description" content="Interactive 3D Glass Studio by founder Burla Narendra &amp; NS GLASS Bapatla. Real-time 3D &amp; AR customizer for shower enclosures, office partitions, and balcony railings.">
+<meta name="author" content="Burla Narendra">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="stylesheet" href="styles.css">
 <!-- Three.js and OrbitControls -->
@@ -443,16 +444,16 @@
 <div class="floating-widget" id="consultationWidget">
   <div class="widget-head">
     <div class="widget-avatar-wrap">
-      <img src="assets/founder.jpg" alt="Burla Narendra" class="widget-avatar">
+      <img src="assets/founder.jpg" alt="Burla Narendra — Founder, NS GLASS" class="widget-avatar">
       <div class="online-dot"></div>
     </div>
     <button class="widget-close-btn" id="closeWidgetBtn" aria-label="Close widget">&times;</button>
   </div>
-  <div class="widget-title">Need Expert Advice?</div>
-  <div class="widget-desc">Chat with our team for free consultation &amp; quote.</div>
+  <div class="widget-title">Consult Burla Narendra</div>
+  <div class="widget-desc">Direct architectural consultation &amp; free quotation.</div>
   <div class="widget-acts">
-    <a href="https://wa.me/917981780062?text=Hello%20NS%20GLASS,%20I%20have%20questions%20about%20my%203D%20glass%20design." target="_blank" class="btn-whatsapp">
-      <i class="fab fa-whatsapp"></i> WhatsApp Now
+    <a href="https://wa.me/917981780062?text=Hello%20Burla%20Narendra,%20I%20have%20questions%20about%20my%203D%20glass%20design." target="_blank" class="btn-whatsapp">
+      <i class="fab fa-whatsapp"></i> WhatsApp Burla Narendra
     </a>
     <a href="contact.html#site-visit" class="btn-secondary">
       <i class="far fa-calendar-alt"></i> Book a Site Visit
@@ -947,7 +948,7 @@ function switchConfigTab(tab, btn) {
 function submitQuote() {
   const prod = document.getElementById('productSelect').value;
   const price = document.getElementById('priceDisplay').innerText;
-  const msg = `Hello NS GLASS, I configured a ${prod} (${currentWidth}ft x ${currentHeight}ft, ${currentGlassType} glass). Estimated: ${price}. Please share official quote.`;
+  const msg = `Hello Burla Narendra & NS GLASS team, I configured a ${prod} (${currentWidth}ft x ${currentHeight}ft, ${currentGlassType} glass). Estimated: ${price}. Please share official quote.`;
   window.open(`https://wa.me/917981780062?text=${encodeURIComponent(msg)}`, '_blank');
 }
 
